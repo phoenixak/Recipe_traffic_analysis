@@ -50,7 +50,7 @@ Or
 1. **Build the Docker image:**
 
    ```bash
-   docker build -t recipe_traffic_analysis .
+   docker build -t recipe_traffic_analysis.
   
    Run the Docker container:
 2. **Run the Docker container:**
