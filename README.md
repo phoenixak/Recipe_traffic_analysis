@@ -44,6 +44,19 @@ Follow these steps to set up the project on your local machine:
    python3 -m venv env
    source env/bin/activate
    pip install -r requirements.txt
+Or 
+
+1. **Build the Docker image:**
+
+   ```bash
+   docker build -t recipe_traffic_analysis .
+  
+   Run the Docker container:
+2. **Run the Docker container:**
+
+   ```bash
+   Copy code
+   docker run -v "$(pwd)/dataset":/app/dataset -it recipe_traffic_analysis
 
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue for any feature requests or bugs.
