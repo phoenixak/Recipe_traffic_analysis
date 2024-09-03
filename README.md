@@ -1,23 +1,24 @@
 # Recipe Site Traffic Analysis & Prediction
 
-This repository contains the complete workflow for analyzing and predicting traffic to a recipe site using various machine learning models. The project demonstrates the use of data preprocessing, exploratory data analysis (EDA), model development, and performance evaluation. It also incorporates Docker for containerization and MLFlow for tracking experiments.
+This project uses advanced language models to analyze car reviews. It includes tasks such as sentiment analysis, translation, question answering, and summarization. The project is modularized, and integrates MLflow for experiment tracking and Docker for containerization.
 
 ## Project Overview
 
 The objective of this project is to analyze the traffic patterns of a recipe site and develop predictive models to forecast future traffic. By leveraging historical data and applying various machine learning algorithms, we aim to provide actionable insights that can help in optimizing content strategy, enhancing user engagement, and improving the overall user experience on the site.
-Key Aspects:
-Data Preprocessing: Cleaning and transforming raw traffic data for analysis.
-Exploratory Data Analysis (EDA): Visualizing and understanding traffic trends.
-Model Development: Training machine learning models to predict traffic.
-Model Evaluation: Assessing model performance using metrics like MAE, RMSE, etc.
+
+Key Aspects
+Sentiment Analysis: Determine the sentiment of car reviews.
+Translation: Translate reviews into different languages.
+Question Answering: Answer questions based on the review content.
+Summarization: Summarize the reviews to capture key points.
 Containerization: Docker is used to encapsulate the project environment.
 Experiment Tracking: MLFlow is integrated for tracking experiments and model versions.
+
 Features
-Traffic Analysis: Detailed analysis of traffic sources, user behavior, and site performance.
-Predictive Modeling: Implementation of regression models to predict future site traffic.
-Visualization: Interactive and static visualizations to understand traffic patterns.
-Containerized Environment: Easily reproducible environment using Docker.
-Experiment Tracking: MLFlow is used to track different model versions and experiments.
+Advanced Language Models: Implementation of LLMs for diverse NLP tasks.
+Modular Architecture: The project is structured to allow easy integration and modification.
+Experiment Tracking: MLFlow tracks different model versions and experiments.
+Containerized Environment: Reproducible environment using Docker.
 
 ### Prerequisites
 
@@ -35,7 +36,7 @@ Follow these steps to set up the project on your local machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/recipe-traffic-analysis.git
+   git clone https://github.com/phoenixak/recipe-traffic-analysis.git
    cd recipe-traffic-analysisd
 
 2. **Create a virtual environment:**
