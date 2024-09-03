@@ -1,0 +1,40 @@
+artifact_path: Logistic Regression
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+mlflow_version: 2.16.0
+model_size_bytes: 4384
+model_uuid: 553331270d4d42ba91779b84f40fa661
+run_id: ee086795ee524de2a8055dbd7f5de19f
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "recipe", "required": true}, {"type": "double",
+    "name": "calories", "required": true}, {"type": "double", "name": "carbohydrate",
+    "required": true}, {"type": "double", "name": "sugar", "required": true}, {"type":
+    "double", "name": "protein", "required": true}, {"type": "integer", "name": "servings",
+    "required": true}, {"type": "boolean", "name": "category_Breakfast", "required":
+    true}, {"type": "boolean", "name": "category_Chicken", "required": true}, {"type":
+    "boolean", "name": "category_Dessert", "required": true}, {"type": "boolean",
+    "name": "category_Lunch/Snacks", "required": true}, {"type": "boolean", "name":
+    "category_Meat", "required": true}, {"type": "boolean", "name": "category_One
+    Dish Meal", "required": true}, {"type": "boolean", "name": "category_Pork", "required":
+    true}, {"type": "boolean", "name": "category_Potato", "required": true}, {"type":
+    "boolean", "name": "category_Vegetable", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "bool", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-09-02 23:44:16.313582'

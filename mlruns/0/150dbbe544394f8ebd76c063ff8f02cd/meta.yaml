@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning/mlruns/0/150dbbe544394f8ebd76c063ff8f02cd/artifacts
+end_time: 1725320025487
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 150dbbe544394f8ebd76c063ff8f02cd
+run_name: Decision Tree
+run_uuid: 150dbbe544394f8ebd76c063ff8f02cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725320022264
+status: 3
+tags: []
+user_id: phoni

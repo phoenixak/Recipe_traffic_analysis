@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning/mlruns/0/629c6e68d8cc48dc97b843c0901a3e64/artifacts
+end_time: 1725320029041
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 629c6e68d8cc48dc97b843c0901a3e64
+run_name: Random Forest
+run_uuid: 629c6e68d8cc48dc97b843c0901a3e64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725320025494
+status: 3
+tags: []
+user_id: phoni
