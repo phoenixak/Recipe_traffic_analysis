@@ -40,10 +40,14 @@ Follow these steps to set up the project on your local machine:
 
 2. **Create a virtual environment:**
 
-```bash
-python3 -m venv env
-source env/bin/activate
-pip install -r requirements.txt
+   ```bash
+   python3 -m venv env
+   source env/bin/activate
+   pip install -r requirements.txt
+
+## Contributing
+Contributions are welcome! Please submit a pull request or open an issue for any feature requests or bugs.
+
 
 
 
