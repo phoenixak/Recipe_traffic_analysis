@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning/mlruns/0/af05dafd80ea4743bf0f7fab9da40363/artifacts
+end_time: 1725396741095
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af05dafd80ea4743bf0f7fab9da40363
+run_name: Support Vector Machines
+run_uuid: af05dafd80ea4743bf0f7fab9da40363
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725396737302
+status: 3
+tags: []
+user_id: phoni

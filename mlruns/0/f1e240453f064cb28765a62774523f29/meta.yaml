@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning/mlruns/0/f1e240453f064cb28765a62774523f29/artifacts
+end_time: 1725396729746
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1e240453f064cb28765a62774523f29
+run_name: Logistic Regression
+run_uuid: f1e240453f064cb28765a62774523f29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725396716974
+status: 3
+tags: []
+user_id: phoni
